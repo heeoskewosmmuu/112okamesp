@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - image: okteto.dev/okteto:latest
-        name: okteto9090dad3-9492-4e7d-8386-cb11be89ce01
+        name: okteto8446e294-229e-43ff-88fd-e1f577b78294
         ports:
         - containerPort: 8080
         env:
@@ -23,9 +23,9 @@ spec:
         - name: ProxySite
           value: "mirror.umd.edu"
         - name: Vless_UUID
-          value: "9090dad3-9492-4e7d-8386-cb11be89ce01"
+          value: "8446e294-229e-43ff-88fd-e1f577b78294"
         - name: Vless_Path
-          value: "/9090dad3-9492-4e7d-8386-cb11be89ce01-vless"
+          value: "/8446e294-229e-43ff-88fd-e1f577b78294-vless"
         - name: Vmess_UUID
           value: "5a2ae306-33e4-42e3-8997-72f0e339ebab"
         - name: Vmess_Path
