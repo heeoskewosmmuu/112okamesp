@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: oksuop
+  name: okteto
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: oksuop
+      app: okteto
   template:
     metadata:
       labels:
-        app: oksuop
+        app: okteto
     spec:
       containers:
-      - image: okteto.dev/oksuop:latest
-        name: oksuop
+      - image: okteto.dev/okteto:latest
+        name: okteto9090dad3-9492-4e7d-8386-cb11be89ce01
         ports:
         - containerPort: 8080
         env:
@@ -27,8 +27,8 @@ spec:
         - name: Vless_Path
           value: "/9090dad3-9492-4e7d-8386-cb11be89ce01-vless"
         - name: Vmess_UUID
-          value: "9090dad3-9492-4e7d-8386-cb11be89ce01"
+          value: "5a2ae306-33e4-42e3-8997-72f0e339ebab"
         - name: Vmess_Path
-          value: "/9090dad3-9492-4e7d-8386-cb11be89ce01-vmess"
+          value: "/5a2ae306-33e4-42e3-8997-72f0e339ebab-vmess"
         - name: Share_Path
           value: "/Share039"
