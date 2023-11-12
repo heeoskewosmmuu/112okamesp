@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - image: okteto.dev/okteto:latest
-        name: okteto8446e294-229e-43ff-88fd-e1f577b78294
+        name: okteto
         ports:
         - containerPort: 8080
         env:
