@@ -27,8 +27,8 @@ spec:
         - name: Vless_Path
           value: "/b0bd6fd7-db98-4f7d-b7cf-a6cc63c9ebfa-vless"
         - name: Vmess_UUID
-          value: "5a2ae306-33e4-42e3-8997-72f0e339ebab"
+          value: "75a58911-2c2d-4308-a2b6-2e8f4ed70f27"
         - name: Vmess_Path
-          value: "/5a2ae306-33e4-42e3-8997-72f0e339ebab-vmess"
+          value: "/75a58911-2c2d-4308-a2b6-2e8f4ed70f27-vmess"
         - name: Share_Path
           value: "/Share039"
